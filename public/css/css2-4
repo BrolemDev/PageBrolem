@@ -1,0 +1,304 @@
+﻿@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufrP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufpP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufoP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufvP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5guftP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufjP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufjv2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufiP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufhP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufnP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5guflP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufvP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufsP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufiP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufnP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufkP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP0VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xak2N11Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufrP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufpP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufoP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufvP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5guftP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufjP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufjv2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufiP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufhP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufnP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5guflP2VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufvP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufsP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufiP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufnP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufkP1VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pathway Extreme';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/pathwayextreme/v3/neI6zCC3pJ0rsaH2_sD-QttXPfDPonvkQ-pxx5gufqP0VmLjiFyxGf8BLymNjYv2Oy6vkLmw4xakBtp1Kw.ttf) format('truetype');
+}
