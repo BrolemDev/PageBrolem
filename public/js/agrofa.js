@@ -551,38 +551,6 @@
   }
   SmoothMenuScroll();
 
-  function OnePageMenuScroll() {
-    var windscroll = $(window).scrollTop();
-    if (windscroll >= 117) {
-      var menuAnchor = $(".one-page-scroll-menu .scrollToLink").children("a");
-      menuAnchor.each(function () {
-        var sections = $(this).attr("href");
-        $(sections).each(function () {
-          if ($(this).offset().top <= windscroll + 100) {
-            var Sectionid = $(sections).attr("id");
-            $(".one-page-scroll-menu").find("li").removeClass("current");
-            $(".one-page-scroll-menu")
-              .find("li")
-              .removeClass("current-menu-ancestor");
-            $(".one-page-scroll-menu")
-              .find("li")
-              .removeClass("current_page_item");
-            $(".one-page-scroll-menu")
-              .find("li")
-              .removeClass("current-menu-parent");
-            $(".one-page-scroll-menu")
-              .find("a[href*=\\#" + Sectionid + "]")
-              .parent()
-              .addClass("current");
-          }
-        });
-      });
-    } else {
-      $(".one-page-scroll-menu li.current").removeClass("current");
-      $(".one-page-scroll-menu li:first").addClass("current");
-    }
-  }
-
   // window scroll event
   function stickyMenuUpScroll($targetMenu, $toggleClass) {
     var lastScrollTop = 0;
@@ -772,7 +740,6 @@
   });
 
   $(window).on("scroll", function () {
-    OnePageMenuScroll();
     handleScrollbar();
     if ($(".sticky-header--one-page").length) {
       var headerScrollPos = 130;
