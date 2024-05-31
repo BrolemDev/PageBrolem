@@ -83,7 +83,7 @@
 
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="dropdown megamenu scrollToLink current">
+                            <li class="scrollToLink">
                                 <a href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="scrollToLink"><a href="{{ route('about_us') }}">About Us</a></li>
@@ -203,7 +203,8 @@
                                     <img src="{{ asset('images/brolemlogo.png') }}" width="155"
                                         alt="Agrofa HTML Template">
                                 </a>
-                                <p class="footer-widget__experience-text">We are main packers and exhibitors of agricultural products specializing in beans and corn.</p>
+                                <p class="footer-widget__experience-text">We are main packers and exhibitors of
+                                    agricultural products specializing in beans and corn.</p>
 
                                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
                             </div><!-- /.footer-widget -->
