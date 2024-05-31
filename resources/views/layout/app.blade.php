@@ -161,7 +161,7 @@
 
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list one-page-scroll-menu">
-                            <li class="dropdown megamenu scrollToLink current">
+                            <li class="scrollToLink">
                                 <a href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="scrollToLink"><a href="{{ route('about_us') }}">About Us</a></li>

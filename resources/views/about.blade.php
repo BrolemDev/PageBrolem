@@ -1,19 +1,25 @@
 @extends('layout/app')
 
 @section('content')
-<style>
-    .embed-container {
-        border: 2px solid green; /* Cambia el grosor y el color del borde según lo desees */
-        border-radius: 10px; /* Esto redondeará los bordes del contenedor */
-        overflow: hidden; /* Esto asegura que el borde se ajuste correctamente */
-    }
+    <style>
+        .embed-container {
+            border: 2px solid green;
+            /* Cambia el grosor y el color del borde según lo desees */
+            border-radius: 10px;
+            /* Esto redondeará los bordes del contenedor */
+            overflow: hidden;
+            /* Esto asegura que el borde se ajuste correctamente */
+        }
 
-    .embed-container iframe {
-        width: 100%; /* Ajusta el ancho del iframe al 100% del contenedor */
-        height: 100%; /* Ajusta la altura del iframe al 100% del contenedor */
-        border: none; /* Elimina cualquier borde adicional del iframe */
-    }
-</style>
+        .embed-container iframe {
+            width: 100%;
+            /* Ajusta el ancho del iframe al 100% del contenedor */
+            height: 100%;
+            /* Ajusta la altura del iframe al 100% del contenedor */
+            border: none;
+            /* Elimina cualquier borde adicional del iframe */
+        }
+    </style>
 
     <section class="page-header page-header--about">
         <div class="page-header__bg"></div>
@@ -67,6 +73,7 @@
                 </div>
             </div>
             <br>
+            <br>
             <div class="row justify-content-center">
                 <div class="blog-one--list__content col-lg-12">
                     <div class="blog-details">
@@ -76,14 +83,18 @@
                                     <a href="https://www.youtube.com/embed/cPn7Vyvmkbs" class="blog-card__image__link">
                                         <img src="assets/images/play-icon.png" alt="Play Video" class="play-icon">
                                     </a>
-                                    <iframe src="https://www.youtube-nocookie.com/embed/cPn7Vyvmkbs?si=b0ZS4rRxTKqKK1fw&rel=0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe
+                                        src="https://www.youtube-nocookie.com/embed/cPn7Vyvmkbs?si=b0ZS4rRxTKqKK1fw&rel=0&amp;controls=0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div><!-- /.blog-card__image -->
-                                </div>
-                            </div><!-- /.blog-card__image -->
-                        </div>
-                    </div><!-- /.blog-details -->
-                </div><!-- /.col-lg-12 -->
-            </div><!-- /.row -->
+                            </div>
+                        </div><!-- /.blog-card__image -->
+                    </div>
+                </div><!-- /.blog-details -->
+            </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
         </div>
     </section><!-- /.food-one -->
 @endsection()
