@@ -1,35 +1,15 @@
 @extends('layout/app')
 
 @section('content')
-    <style>
-        .embed-container {
-            border: 2px solid green;
-            /* Cambia el grosor y el color del borde según lo desees */
-            border-radius: 10px;
-            /* Esto redondeará los bordes del contenedor */
-            overflow: hidden;
-            /* Esto asegura que el borde se ajuste correctamente */
-        }
-
-        .embed-container iframe {
-            width: 100%;
-            /* Ajusta el ancho del iframe al 100% del contenedor */
-            height: 100%;
-            /* Ajusta la altura del iframe al 100% del contenedor */
-            border: none;
-            /* Elimina cualquier borde adicional del iframe */
-        }
-    </style>
-
     <section class="page-header page-header--about">
-        <div class="page-header__bg"></div>
+        <div class="page-header__bg" style="background-image: url('{{ asset('images/brolem/img_3546.png') }}');"></div>
         <!-- /.page-header__bg -->
         <div class="container">
             <!-- <img src="assets/images/shapes/page-header-s-1.png" alt="About Us" class="page-header__shape"> -->
             <h2 class="page-header__title">About Us</h2>
             <ul class="agrofa-breadcrumb list-unstyled">
-                <li><a href="index.html">Home</a></li>
-                <li><span>About</span></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><span>About Us</span></li>
             </ul><!-- /.thm-breadcrumb list-unstyled -->
         </div><!-- /.container -->
     </section><!-- /.page-header -->
@@ -103,15 +83,4 @@
 @endsection()
 
 @section('scripts')
-    <script>
-        // Función para iniciar la reproducción del video automáticamente
-        function playVideo() {
-            var iframe = document.querySelector('iframe');
-            var videoSrc = iframe.getAttribute('src');
-            iframe.setAttribute('src', videoSrc + '?autoplay=1');
-        }
-
-        // Llamar a la función para iniciar la reproducción del video automáticamente
-        playVideo();
-    </script>
 @endsection

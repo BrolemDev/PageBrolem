@@ -23,11 +23,69 @@
 
             </div><!-- /.blog-card-two__content -->
         </div>
-
-        
-
-
     </section><!-- /.why-choose-one -->
+    <section class="companies-two companies-two--about">
+        <div class="container">
+            <div class="section-common-title">
+                <h2 class="companies-two__title food-chose-title fadeInUp wow" data-wow-delay="100ms">Certified products
+                </h2>
+            </div>
+
+            <div class="companies-two__carousel agrofa-owl__carousel agrofa-owl__carousel--with-shadow agrofa-owl__carousel--basic-nav owl-carousel"
+            data-owl-options='{
+            "items": 1,
+            "margin": 0,
+            "loop": true,
+            "smartSpeed": 700,
+            "nav": false,
+            "navText": [""],
+            "dots": true,
+            "autoplay": false,
+            "responsive": {
+                "0": {
+                    "items": 1
+                },
+                "768": {
+                    "items": 2
+                },
+                "992": {
+                    "items": 3
+                },
+                "1367": {
+                    "items": 4
+                }
+            }
+        }'>
+        <div class="item">
+            <div class="companies-two__image">
+                <div class="companies-two__inner-img">
+                    <a href="#"><img src="{{ asset('images/brolem/logos/usda.png') }}" alt="" class="carousel-image"></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="companies-two__image">
+                <div class="companies-two__inner-img">
+                    <a href="#"><img src="{{ asset('images/brolem/logos/haccp.png') }}" alt="" class="carousel-image"></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="companies-two__image">
+                <div class="companies-two__inner-img">
+                    <a href="#"><img src="{{ asset('images/brolem/logos/gpc.png') }}" alt="" class="carousel-image"></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="companies-two__image">
+                <div class="companies-two__inner-img">
+                    <a href="#"><img src="{{ asset('images/brolem/logos/gpc.png') }}" alt="" class="carousel-image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
 @endsection()
 
 @section('styles')
