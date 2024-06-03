@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\MailOutput;
+use App\Mail\MailTeam;
 
 class SiteController extends Controller
 {
@@ -55,15 +56,21 @@ class SiteController extends Controller
         return view('contact');
     }
 
-    public function send_mail()
+    public function send_mail(Request $request)
     {
         try {
             $details = [
-                'title' => 'Correo de Prueba',
-                'body' => 'Este es un correo de prueba desde Laravel.'
+                'date' => date('m-d-Y'), // Fecha actual
+                'name' => $request->input('name'),
+                'company' => $request->input('company'),
+                'email' => $request->input('email'),
+                'phone' => $request->input('phone'),
+                'message' => $request->input('message')
             ];
 
-            Mail::to('dev.valenzuela02@gmail.com')->send(new MailOutput($details));
+            Mail::to($request->input('email'))->send(new MailOutput());
+
+            Mail::to('test@brolem.pe')->send(new MailTeam($details));
 
             // Si el envío del correo es exitoso, retornamos un mensaje de éxito
             return response()->json(['message' => 'Correo enviado con éxito']);

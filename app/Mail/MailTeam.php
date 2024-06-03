@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class MailOutput extends Mailable
+class MailTeam extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -18,9 +18,11 @@ class MailOutput extends Mailable
      *
      * @return void
      */
+    public $details;
 
-    public function __construct()
+    public function __construct($details)
     {
+        $this->details = $details;
     }
 
     /**
@@ -31,7 +33,7 @@ class MailOutput extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Confirmation of Your Message Receipt',
+            subject: 'New Contact Form Submission',
         );
     }
 
@@ -43,7 +45,8 @@ class MailOutput extends Mailable
     public function content()
     {
         return new Content(
-            view: 'mails.output',
+            view: 'mails.mailTeam',
+            with: ['details' => $this->details],
         );
     }
 
