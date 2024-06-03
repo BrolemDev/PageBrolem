@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\MailOutput;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\MailOutput;
 
 class SiteController extends Controller
 {
@@ -63,7 +63,7 @@ class SiteController extends Controller
                 'body' => 'Este es un correo de prueba desde Laravel.'
             ];
 
-            Mail::to('valenestradam1@gmail.com')->send(new MailOutput($details));
+            Mail::to('dev.valenzuela02@gmail.com')->send(new MailOutput($details));
 
             // Si el envío del correo es exitoso, retornamos un mensaje de éxito
             return response()->json(['message' => 'Correo enviado con éxito']);

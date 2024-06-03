@@ -205,34 +205,9 @@
                                 </a>
                                 <p class="footer-widget__experience-text">We are main packers and exhibitors of
                                     agricultural products specializing in beans and corn.</p>
-
                                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
-
-                        <div class="footer-widget__col  footer-widget__col__col2">
-                            <div class="footer-widget footer-widget--links">
-                                <h5 class="footer-widget__title">Links</h5>
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="#">Agriculture Foods</a></li>
-                                    <li><a href="#">Organic Vegetables</a></li>
-                                    <li><a href="#">Pond & Sea Fish</a></li>
-                                    <li><a href="#">Fertilizer</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                        <div class="footer-widget__col  footer-widget__col__col3">
-                            <div class="footer-widget footer-widget--explore">
-                                <h5 class="footer-widget__title">Explore Link</h5><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="#">Cookie Policy</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">About us</a></li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-
                     </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.main-footer__top -->
@@ -242,15 +217,6 @@
                     <div class="main-footer__bottom__inner">
                         <p class="main-footer__copyright"> &copy; <span class="dynamic-year"></span> Brolem
                             Derechos reservados</p>
-                        <div class="main-footer__social-row">
-                            <p class="main-footer__social-row-text">Social</p>
-                            <ul class="main-footer__social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
                     </div><!-- /.main-footer__inner -->
                 </div><!-- /.container -->
             </div><!-- /.main-footer__bottom -->
@@ -272,49 +238,17 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@agrofa.com">needhelp@agrofa.com</a>
+                    <a href="mailto:marbrocos@brolem.pe">marbrocos@brolem.pe</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+51998347307">+51 998 347 307</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social">
-                <a href="https://www.linkedin.com">
-                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://twitter.com">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </div><!-- /.mobile-nav__social -->
         </div>
         <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav__wrapper -->
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" placeholder="Search Here...">
-                <button type="submit" aria-label="search submit" class="agrofa-btn agrofa-btn--base">
-                    <span><i class="icon-search1"></i></span>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
+
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">Regresar</span>
