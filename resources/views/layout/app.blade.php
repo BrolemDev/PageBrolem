@@ -10,9 +10,24 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicons/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('images/favicons/site.webmanifest') }}">
-    <meta name="description"
-        content="Sollox is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses.">
+    <!-- Metadatos para Facebook -->
+    <meta property="og:title" content="Brolem" />
+    <meta property="og:description"
+        content="At BROLEM COMPANY, we are passionately dedicated to
+  export the best Andean grains, representing the best
+  of Peruvian land in each shipment." />
+    <meta property="og:image" content="https://brolem.pe/images/brolemlogo.png" />
+    <meta property="og:url" content="https://brolem.pe/" />
 
+
+    <!-- Metadatos para Google -->
+    <meta name="description"
+        content="At BROLEM COMPANY, we are passionately dedicated to
+  export the best Andean grains, representing the best
+  of Peruvian land in each shipment." />
+    <meta name="keywords"
+        content="brolem, brochure, Andean grains, eruvian agriculture, Export company, Peruvian exports, Agricultural products,Peruvian grains" />
+    <meta name="author" content="Brolem" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
