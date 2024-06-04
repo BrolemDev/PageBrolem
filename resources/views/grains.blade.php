@@ -19,84 +19,84 @@
             <div class="gallery">
 
                 <div class="item whiteQ">
-                    <img src="{{ asset('images/brolem/menestras/1/IMG_2854.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/1/IMG_2854.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item whiteQ">
-                    <img src="{{ asset('images/brolem/menestras/1/IMG_2818.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/1/IMG_2818.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item redQ">
-                    <img src="{{ asset('images/brolem/menestras/2/IMG_2880.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/2/IMG_2880.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item redQ">
-                    <img src="{{ asset('images/brolem/menestras/2/IMG_2856.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/2/IMG_2856.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item blackQ">
-                    <img src="{{ asset('images/brolem/menestras/3/IMG_2881.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/3/IMG_2881.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item blackQ">
-                    <img src="{{ asset('images/brolem/menestras/3/IMG_2858.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/3/IMG_2858.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item tricolorQ">
-                    <img src="{{ asset('images/brolem/menestras/4/IMG_2889.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/4/IMG_2889.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item tricolorQ">
-                    <img src="{{ asset('images/brolem/menestras/4/IMG_2886.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/4/IMG_2886.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item blackChiaS">
-                    <img src="{{ asset('images/brolem/menestras/5/IMG_2895.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/5/IMG_2895.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item blackChiaS">
-                    <img src="{{ asset('images/brolem/menestras/5/IMG_2891.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/5/IMG_2891.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item amaranth">
-                    <img src="{{ asset('images/brolem/menestras/6/IMG_2900.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/6/IMG_2900.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item amaranth">
-                    <img src="{{ asset('images/brolem/menestras/6/IMG_2897.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/6/IMG_2897.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>

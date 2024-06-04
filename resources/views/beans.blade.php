@@ -15,84 +15,84 @@
             <div class="gallery">
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/7/IMG_2902.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/7/IMG_2902.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/8/IMG_2906.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/8/IMG_2906.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/9/IMG_2911.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/9/IMG_2911.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/10/IMG_2913.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/10/IMG_2913.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/11/IMG_2919.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/11/IMG_2919.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/12/IMG_2791.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/12/IMG_2791.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/13/IMG_2927.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/13/IMG_2927.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/14/IMG_2930.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/14/IMG_2930.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/15/IMG_2935.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/15/IMG_2935.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/16/IMG_2937.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/16/IMG_2937.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
-                    <img src="{{ asset('images/brolem/menestras/17/IMG_2940.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/17/IMG_2940.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
-                    <img src="{{ asset('images/brolem/menestras/18/IMG_2943.webp') }}">
+                    <img src="{{ asset('images/brolem/MENESTRAS/18/IMG_2943.webp') }}">
                     <div class="overlay">
                         <a href="#">VIEW MORE</a>
                     </div>
