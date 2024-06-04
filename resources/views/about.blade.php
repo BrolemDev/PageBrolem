@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="page-header page-header--about">
-        <div class="page-header__bg" style="background-image: url('{{ asset('images/brolem/img_3546.png') }}');"></div>
+        <div class="page-header__bg" style="background-image: url('{{ asset('images/brolem/planta/IMG_3546.webp') }}');"></div>
         <!-- /.page-header__bg -->
         <div class="container">
             <!-- <img src="assets/images/shapes/page-header-s-1.png" alt="About Us" class="page-header__shape"> -->
@@ -48,7 +48,7 @@
                 </div>
                 <div class="food-one__right fadeInRight wow" data-wow-delay="200ms">
                     <div class="food-one__right-img">
-                        <img src="{{ asset('images/brolem/img_3566.png') }}" alt="">
+                        <img src="{{ asset('images/brolem/planta/IMG_3566.webp') }}" alt="">
                     </div>
                 </div>
             </div>
