@@ -16,7 +16,7 @@
         content="At BROLEM COMPANY, we are passionately dedicated to
   export the best Andean grains, representing the best
   of Peruvian land in each shipment." />
-    <meta property="og:image" content="https://brolem.pe/images/favicon-194x194" />
+    <meta property="og:image" content="https://brolem.pe/images/brolem/favicon-194x194" />
     <meta property="og:url" content="https://brolem.pe/" />
 
 
