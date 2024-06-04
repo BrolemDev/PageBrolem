@@ -32,12 +32,12 @@ class SiteController extends Controller
         return view('grains', $data);
     }
 
-    public function pulses()
+    public function beans()
     {
         $data = [
-            'title' => 'PULSES'
+            'title' => 'BEANS'
         ];
-        return view('pulses', $data);
+        return view('beans', $data);
     }
 
     public function our_process()

@@ -18,6 +18,8 @@ Route::controller(SiteController::class)->group(function ($route) {
     Route::get('/', 'index');
     Route::get('/Home', 'index')->name('home');
     Route::get('/About_Us', 'about_us')->name('about_us');
+    Route::get('/Andean_Grains', 'grains')->name('grains');
+    Route::get('/Beans', 'beans')->name('beans');
     Route::get('/Our_Process', 'our_process')->name('our_process');
     Route::get('/Contact_Us', 'contact_us')->name('contact_us');
     Route::post('/SendMail', 'send_mail')->name('send_mail');

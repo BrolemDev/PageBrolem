@@ -15,7 +15,7 @@
 --------------------------------------------------------------*/
 :root {
   --agrofa-font: "Inter", sans-serif;
-  --agrofa-heading-font: "Mali", cursive;
+  --agrofa-heading-font: "Outfit", cursive;
   --agrofa-special-font: "Outfit", sans-serif;
   --agrofa-special-font3: "Pathway Extreme", sans-serif;
   --agrofa-text: #12110e;
@@ -78,6 +78,15 @@
   --agrofa-gray-rgb: 221, 221, 221;
   --agrofa-letter-space: 0.1em;
   --agrofa-letter-space-xl: 0.2em;
+
+
+  /* Isotope const */
+
+  --body-clr: #f6f9fe;
+  --primary-clr: #05555c;
+  --primary-light-clr: #e4e6e7;
+  --links-clr: #186f78;
+  --text-clr: #3f7277;
 }
 
 /*--------------------------------------------------------------
@@ -17512,7 +17521,6 @@ body.boxed-wrapper .main-header__btn {
   overflow: hidden;
 }
 .latest-work-one--projects-two .container {
-  padding-top: 118px;
   padding-bottom: 120px;
 }
 @media (max-width: 1200px) {
@@ -17724,7 +17732,7 @@ body.boxed-wrapper .main-header__btn {
 --------------------------------------------------------------*/
 .companies-two .container {
   padding-top: 105px;
-  padding-bottom: 120px;
+  padding-bottom: 100px;
 }
 @media (max-width: 991px) {
   .companies-two .container {
@@ -18671,4 +18679,28 @@ body.boxed-wrapper .main-header__btn {
   padding: 0;
   margin-top: 30px;
 }
+ul .scroll{
+  list-style:none;
+  padding:0;
+  margin:0;
+  position:fixed;
+  right:0;
+  top:50%;
+  width:200px;
+  z-index:2;
+}
+.box {
+  background:#333333;
+  padding:10px;
+  color:#ffffff;
+  -moz-transition:all 1s;
+  -webkit-transition:all 1s;
+  transition:all 1s;
+  margin-left:75px;
+}
+
+.fixed-bottom1{position:fixed;right:100px;bottom:20px;left:0;z-index:1030}
+.fixed-bottom2{position:fixed;right:100px;bottom:120px;left:0;z-index:1030}
+.fixed-bottom3{position:fixed;right:100px;bottom:220px;left:0;z-index:1030}
+.fixed-bottom4{position:fixed;right:100px;bottom:320px;left:0;z-index:1030}
 /*# sourceMappingURL=agrofa.css.map */

@@ -155,20 +155,29 @@
                 },
             },
             submitHandler: function (form) {
+                const submitButton = document.querySelector(".form-submit-btn");
+                const originalButtonText = submitButton.textContent;
+
+                submitButton.textContent = "Sending...";
+                submitButton.disabled = true;
+
                 $.ajax({
                     type: "POST",
-                    url: "/SendMail", // Cambia esto a la ruta de tu controlador
+                    url: "/SendMail",
                     data: $(form).serialize(),
                     dataType: "json",
                 })
                     .done((response) => {
-                        // Maneja la respuesta del servidor
                         alert("Formulario enviado con éxito");
                         console.log(response);
                     })
                     .fail((error) => {
                         // Maneja cualquier error
                         console.error(error.responseText);
+                    })
+                    .always(() => {
+                        submitButton.textContent = originalButtonText;
+                        submitButton.disabled = false;
                     });
             },
         });
@@ -758,6 +767,21 @@
                 return false;
             });
         }
+
+        var $galleryContainer = $(".gallery").isotope({
+            itemSelector: ".item",
+            layoutMode: "fitRows",
+        });
+
+        $(".button-group .button").on("mouseover", function () {
+            $(".button-group .button").removeClass("active");
+            $(this).addClass("active");
+
+            var value = $(this).attr("data-filter");
+            $galleryContainer.isotope({
+                filter: value,
+            });
+        });
 
         if ($(".post-filter.has-dynamic-filter-counter").length) {
             // var allItem = $('.single-filter-item').length;

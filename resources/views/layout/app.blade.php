@@ -87,11 +87,11 @@
                                 <a href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="scrollToLink"><a href="{{ route('about_us') }}">About Us</a></li>
-                            <li class="scrollToLink">
-                                <a href="javascript:void(0)">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li> <a href="service-d-organic-fresh-fruits.html">Organic Fresh Fruits</a></li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)">Our Products</a>
+                                <ul class="sub-menu">P
+                                    <li><a href="{{ route('grains') }}">Andean Grains</a></li>
+                                    <li><a href="{{ route('beans') }}">Beans</a></li>
                                 </ul>
                             </li>
                             <li class="scrollToLink"><a href="{{ route('our_process') }}">Our Process</a></li>
@@ -168,8 +168,8 @@
                             <li class="dropdown">
                                 <a href="javascript:void(0)">Our Products</a>
                                 <ul class="sub-menu">P
-                                    <li><a href="our-farmer.html">Andean Grains</a></li>
-                                    <li><a href="our-farmer-carousel.html">Beans</a></li>
+                                    <li><a href="{{ route('grains') }}">Andean Grains</a></li>
+                                    <li><a href="{{ route('beans') }}">Beans</a></li>
                                 </ul>
                             </li>
                             <li class="scrollToLink"><a href="{{ route('our_process') }}">Our Process</a></li>
@@ -225,7 +225,6 @@
     </div><!-- /.page-wrapper -->
 
 
-
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -256,7 +255,7 @@
     </a>
 
 
-    <script src="{{ asset('vendors/jquery/jquery-3.7.0.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="{{ asset('vendors/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
     <script src="{{ asset('vendors/jarallax/jarallax.min.js') }}"></script>
@@ -272,7 +271,7 @@
     <script src="{{ asset('vendors/owl-carousel/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('vendors/wow/wow.js') }}"></script>
     <script src="{{ asset('vendors/imagesloaded/imagesloaded.min.js') }}"></script>
-    <script src="{{ asset('vendors/isotope/isotope.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
     <script src="{{ asset('vendors/countdown/countdown.min.js') }}"></script>
     <script src="{{ asset('vendors/jquery-circleType/jquery.circleType.js') }}"></script>
     <script src="{{ asset('vendors/jquery-lettering/jquery.lettering.min.js') }}"></script>
