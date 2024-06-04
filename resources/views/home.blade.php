@@ -19,7 +19,7 @@
             }'>
             <div class="main-slider-one__item">
                 <div class="main-slider-one__bg"
-                    style="background-image: url('{{ asset('images/brolem/menestras/15/IMG_2936.webp') }}')">
+                    style="background-image: url('{{ asset('images/brolem/MENESTRAS/15/IMG_2936.webp') }}')">
                 </div>
                 <div class="container">
                     <div class="row">
