@@ -103,6 +103,168 @@
         </main>
 
     </section>
+
+    <div class="modal fade" id="modalCenter" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <section class="product-details">
+                        <div class="container">
+                            <div class="row">
+                                <div class="product-details__img-col col-lg-6 col-xl-6 wow fadeInLeft"
+                                    data-wow-delay="200ms">
+                                    <div class="product-details__img-wrap">
+                                        <div class="agrofa-tiny__slider product-details__carousel-slider"
+                                            id="product-details__img-01"
+                                            data-tiny-options='{
+                                                "container": "#product-details__img-01",
+                                                "loop": true,
+                                                "navContainer": "#product-details__img-thumb-01",
+                                                "items": 1,
+                                                "navAsThumbnails": true,
+                                                "controlsText": ["<span class=\"icon-left-arrow1\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                                "mouseDrag": true,
+                                                "center": true
+                                            }'>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-10.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-2.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-1.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.agrofa-tiny__slider -->
+                                        <div class="agrofa-tiny__slider product-details__thumb-img"
+                                            id="product-details__img-thumb-01"
+                                            data-tiny-options='{
+                                                "container": "#product-details__img-thumb-01",
+                                                "loop": true,
+                                                "items": 3,
+                                                "mouseDrag": true,
+                                                "gutter": 10,
+                                                "nav": false
+                                            }'>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-10.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-2.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img src="{{ asset('images/products/product-1-1.png') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.agrofa-tiny__slider -->
+                                    </div>
+                                </div><!-- /.column -->
+
+                                <div class="product-details__content-col col-lg-6 col-xl-6 wow fadeInRight"
+                                    data-wow-delay="300ms">
+                                    <div class="product-details__content">
+                                        <div class="product-details__top">
+                                            <h3 class="product-details__title">Wicker chair</h3><!-- /.product-title -->
+                                            <div class="product-details__price">
+                                                <strong class="product__item__regular-price">$140.00</strong>
+                                                <span class="product__item__offer-price">$200.00</span>
+                                                <small class="product-details__off20">-20%</small>
+                                                <small class="product-details__instock">In stock</small>
+                                            </div><!-- /.product-price -->
+                                        </div>
+                                        <div class="product-details__review">
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <a href="product-details.html">( 5 Customer Review )</a>
+                                        </div><!-- /.review-ratings -->
+
+                                        <div class="product-details__excerpt">
+                                            <p class="product-details__excerpt">There are many variations of passages of
+                                                lorem Ipsum available, but
+                                                the majority have suffered alteration in some form, by injected humour or
+                                                randomised words which don't look even slightly believable. </p>
+                                            <ul class="product-details__feature">
+                                                <li> Excellent audio performance</li>
+                                                <li>Lorem ipsum available, but the majority have suffered.</li>
+                                            </ul>
+                                        </div><!-- /.excerp-text -->
+
+
+                                        <div class="product-details__fav-cart-wrap d-flex align-items-end">
+                                            <div class="product-details__quantity">
+                                                <h3 class="product-details__quantity-title">Quantity</h3>
+                                                <div class="quantity-box">
+                                                    <button type="button" class="sub"><i
+                                                            class="icon-down-arrow1"></i></button>
+                                                    <input type="text" id="1" value="1">
+                                                    <button type="button" class="add"><i
+                                                            class="icon-up-arrow1"></i></button>
+                                                </div>
+                                            </div><!-- /.quantity -->
+
+                                            <div class="product-details__buttons">
+                                                <a href="cart.html" class="agrofa-btn agrofa-btn--addcart"><span>Add to
+                                                        Cart</span></a>
+                                                <a href="cart.html" class="icon-heart fav-icon"></a>
+                                            </div><!-- /.qty-btn -->
+                                        </div>
+
+                                        <ul class="product-details__feature product-details__delivery">
+                                            <li><strong>Estimated Delivery:</strong> 60-60 days Ships to Bangladesh</li>
+                                            <li><strong>Free Shipping:</strong> From China to Bangladesh via Super Economy
+                                                Global</li>
+                                        </ul>
+
+
+                                        <div class="product-details__socials">
+                                            <h4 class="product-details__socials__title">Share:</h4>
+                                            <a href="https://www.linkedin.com">
+                                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                                <span class="sr-only">Twitter</span>
+                                            </a>
+                                            <a href="https://twitter.com">
+                                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                <span class="sr-only">Facebook</span>
+                                            </a>
+                                            <a href="https://facebook.com">
+                                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                                <span class="sr-only">Pinterest</span>
+                                            </a>
+                                            <a href="https://instagram.com">
+                                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                                <span class="sr-only">Instagram</span>
+                                            </a>
+                                        </div><!-- /.social-share -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.product-details -->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection()
 
 @section('styles')

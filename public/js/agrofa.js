@@ -768,6 +768,9 @@
             });
         }
 
+        $("#modalCenter").modal("show");
+
+
         var $galleryContainer = $(".gallery").isotope({
             itemSelector: ".item",
             layoutMode: "fitRows",
