@@ -95,7 +95,7 @@
         <div class="container">
             <div class="row latest-work-one__bx">
                 <div class="section-common-title">
-                    <h2 class="companies-two__title food-chose-title fadeInUp wow" data-wow-delay="100ms">Certified products
+                    <h2 class="companies-two__title food-chose-title fadeInUp wow" data-wow-delay="100ms">Process
                     </h2>
                 </div>
                 <div class="col-md-6 col-xl-4 item">
@@ -106,7 +106,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3420.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto 1</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3429.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto 2</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -141,7 +141,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3431.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto 3</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -159,7 +159,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3491.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto 4</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"> </a>
                                         </h5>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3532.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto 5</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -194,7 +194,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3541.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -212,7 +212,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3548.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -231,7 +231,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3559.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -249,7 +249,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3573.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -267,7 +267,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3591.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -285,7 +285,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3598.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -303,7 +303,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3618.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -321,7 +321,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3625.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -339,7 +339,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3635.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
@@ -358,7 +358,7 @@
                                         src="{{ asset('images/brolem/PLANTA/IMG_3645.webp') }}" alt=""></div>
                                 <div class="latest-work-one__btm-info">
                                     <div class="latest-work-one__tagwrap">
-                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)">texto</a>
+                                        <h5 class="latest-work-one__work-title"><a href="javascript:void(0)"></a>
                                         </h5>
                                     </div>
 
