@@ -17,84 +17,84 @@
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/7/IMG_2902.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="9">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/8/IMG_2906.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="8">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/9/IMG_2911.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="9">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/10/IMG_2913.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="10">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/11/IMG_2919.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="11">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/12/IMG_2791.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="12">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/13/IMG_2927.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="13">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/14/IMG_2930.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="14">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/15/IMG_2935.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="15">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/16/IMG_2937.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="16">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item pulses">
                     <img src="{{ asset('images/brolem/MENESTRAS/17/IMG_2940.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="17">VIEW MORE</a>
                     </div>
                 </div>
 
                 <div class="item beans">
                     <img src="{{ asset('images/brolem/MENESTRAS/18/IMG_2943.webp') }}">
                     <div class="overlay">
-                        <a href="#">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="18">VIEW MORE</a>
                     </div>
                 </div>
 
@@ -117,60 +117,59 @@
                                         <div class="agrofa-tiny__slider product-details__carousel-slider"
                                             id="product-details__img-01"
                                             data-tiny-options='{
-                                                "container": "#product-details__img-01",
-                                                "loop": true,
-                                                "navContainer": "#product-details__img-thumb-01",
-                                                "items": 1,
-                                                "navAsThumbnails": true,
-                                                "controlsText": ["<span class=\"icon-left-arrow1\"></span>","<span class=\"icon-right-arrow1\"></span>"],
-                                                "mouseDrag": true,
-                                                "center": true
+                                            "container": "#product-details__img-01",
+                                            "loop": true,
+                                            "navContainer": "#product-details__img-thumb-01",
+                                            "items": 1,
+                                            "navAsThumbnails": true,
+                                            "controlsText": ["<span class=\"icon-left-arrow1\"></span>","<span class=\"icon-right-arrow1\"></span>"],
+                                            "mouseDrag": true,
+                                            "center": true
                                             }'>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-10.png') }}"
-                                                        alt="">
+                                                    <img id="img_1">
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-2.png') }}"
-                                                        alt="">
+                                                    <img id="img_2">
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-1.png') }}"
-                                                        alt="">
+                                                    <img id="img_3">
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="product-details__images">
+                                                    <img id="img_4">
                                                 </div>
                                             </div>
                                         </div><!-- /.agrofa-tiny__slider -->
                                         <div class="agrofa-tiny__slider product-details__thumb-img"
                                             id="product-details__img-thumb-01"
                                             data-tiny-options='{
-                                                "container": "#product-details__img-thumb-01",
-                                                "loop": true,
-                                                "items": 3,
-                                                "mouseDrag": true,
-                                                "gutter": 10,
-                                                "nav": false
+                                            "container": "#product-details__img-thumb-01",
+                                            "loop": true,
+                                            "items": 3,
+                                            "mouseDrag": true,
+                                            "gutter": 10,
+                                            "nav": false
                                             }'>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-10.png') }}"
-                                                        alt="">
+                                                    <img id="img_thumb_1">
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-2.png') }}"
-                                                        alt="">
+                                                    <img id="img_thumb_2">
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="product-details__images">
-                                                    <img src="{{ asset('images/products/product-1-1.png') }}"
-                                                        alt="">
+                                                    <img id="img_thumb_3">
                                                 </div>
                                             </div>
                                         </div><!-- /.agrofa-tiny__slider -->
@@ -181,84 +180,51 @@
                                     data-wow-delay="300ms">
                                     <div class="product-details__content">
                                         <div class="product-details__top">
-                                            <h3 class="product-details__title">Wicker chair</h3><!-- /.product-title -->
+                                            <h3 class="product-details__title" id="title">WHIITE QUINOA</h3>
+                                            <!-- /.product-title -->
                                             <div class="product-details__price">
-                                                <strong class="product__item__regular-price">$140.00</strong>
-                                                <span class="product__item__offer-price">$200.00</span>
-                                                <small class="product-details__off20">-20%</small>
-                                                <small class="product-details__instock">In stock</small>
+                                                <small class="product-details__instock" id="code">HS Code:
+                                                    1008.50.9000</small>
                                             </div><!-- /.product-price -->
                                         </div>
-                                        <div class="product-details__review">
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <a href="product-details.html">( 5 Customer Review )</a>
-                                        </div><!-- /.review-ratings -->
-
                                         <div class="product-details__excerpt">
-                                            <p class="product-details__excerpt">There are many variations of passages of
-                                                lorem Ipsum available, but
-                                                the majority have suffered alteration in some form, by injected humour or
-                                                randomised words which don't look even slightly believable. </p>
-                                            <ul class="product-details__feature">
-                                                <li> Excellent audio performance</li>
-                                                <li>Lorem ipsum available, but the majority have suffered.</li>
+                                            <p class="product-details__excerpt" id="description">Discover our Andean
+                                                quinoa, sustainably sourced from Puno or Ayacucho, rich in protein,
+                                                essential amino acids, and micronutrients. Meeting strict quality standards,
+                                                it's offered in organic and conventional varieties, ideal for various
+                                                culinary needs. </p>
+                                            <ul class="product-details__feature product-details__delivery">
+                                                <li><strong>Available Varieties:</strong> <span
+                                                        id="available_varieties">Organic certified and conventional</span>
+                                                </li>
+                                                <li><strong>Availability:</strong> <span id="availability">All Year</span>
+                                                </li>
+                                                <li><strong>Main producing region: </strong> <span
+                                                        id="main_producing_region">Puno, Ayacucho</span></li>
+                                                <li><strong>Packing: </strong> Both packaging type and quantity are
+                                                    customizable to suit individual customer specifications.</li>
                                             </ul>
-                                        </div><!-- /.excerp-text -->
-
-
-                                        <div class="product-details__fav-cart-wrap d-flex align-items-end">
-                                            <div class="product-details__quantity">
-                                                <h3 class="product-details__quantity-title">Quantity</h3>
-                                                <div class="quantity-box">
-                                                    <button type="button" class="sub"><i
-                                                            class="icon-down-arrow1"></i></button>
-                                                    <input type="text" id="1" value="1">
-                                                    <button type="button" class="add"><i
-                                                            class="icon-up-arrow1"></i></button>
+                                            <div class="product-details__feature product-details__delivery mt-4">
+                                                <h6 class="sidebar__title">BULK PACKING: </h6><!-- /.sidebar__title -->
+                                                <div class="sidebar__tags" id="bulk_packing">
+                                                    <a href="javascript:void(0)">25Kg</a>
+                                                    <a href="javascript:void(0)">50Kg</a>
+                                                    <a href="javascript:void(0)">950kg </a>
                                                 </div>
-                                            </div><!-- /.quantity -->
+                                            </div>
 
-                                            <div class="product-details__buttons">
-                                                <a href="cart.html" class="agrofa-btn agrofa-btn--addcart"><span>Add to
-                                                        Cart</span></a>
-                                                <a href="cart.html" class="icon-heart fav-icon"></a>
-                                            </div><!-- /.qty-btn -->
+                                            <div class="product-details__feature product-details__delivery mt-5">
+                                                <h6 class="sidebar__title">RETAIL PACKING: </h6><!-- /.sidebar__title -->
+                                                <div class="sidebar__tags" id="retail_packing">
+                                                    <a href="javascript:void(0)">950g</a>
+                                                    <a href="javascript:void(0)">450g</a>
+                                                    <a href="javascript:void(0)">Customizable </a>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <ul class="product-details__feature product-details__delivery">
-                                            <li><strong>Estimated Delivery:</strong> 60-60 days Ships to Bangladesh</li>
-                                            <li><strong>Free Shipping:</strong> From China to Bangladesh via Super Economy
-                                                Global</li>
-                                        </ul>
-
-
-                                        <div class="product-details__socials">
-                                            <h4 class="product-details__socials__title">Share:</h4>
-                                            <a href="https://www.linkedin.com">
-                                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                                                <span class="sr-only">Twitter</span>
-                                            </a>
-                                            <a href="https://twitter.com">
-                                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                                <span class="sr-only">Facebook</span>
-                                            </a>
-                                            <a href="https://facebook.com">
-                                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                                <span class="sr-only">Pinterest</span>
-                                            </a>
-                                            <a href="https://instagram.com">
-                                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                                <span class="sr-only">Instagram</span>
-                                            </a>
-                                        </div><!-- /.social-share -->
                                     </div>
                                 </div>
                             </div>
-                            <!-- /.product-details -->
                         </div>
                     </section>
                 </div>
@@ -399,5 +365,99 @@
 @endsection()
 
 @section('scripts')
-    <script></script>
+    <script>
+        const url = "{{ asset('json/products.json') }}";
+
+        async function getProductById(productId) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch products');
+                }
+                const data = await response.json();
+                return data.products.find(product => product.id === parseInt(productId));
+            } catch (error) {
+                console.error('Error:', error);
+                return null;
+            }
+        }
+
+        document.querySelectorAll('.view-more').forEach(link => {
+            link.addEventListener('click', async event => {
+                event.preventDefault();
+                // const productId = event.target.dataset.id;
+                // const product = await getProductById(productId);
+                // if (product) {
+                // displayProductDetails(product);
+                // }
+
+                alert('We are working to add details');
+            });
+        });
+
+        function displayProductDetails(product) {
+            document.getElementById('title').textContent = product.name;
+            document.getElementById('code').textContent = `HS Code: ${product.hs_code}`;
+            document.getElementById('description').textContent = product.description;
+            document.getElementById('available_varieties').textContent = product.available_varieties.join(', ');
+            document.getElementById('availability').textContent = product.availability;
+            document.getElementById('main_producing_region').textContent = product.main_producing_region.join(', ');
+
+            const bulkPackingContainer = document.getElementById('bulk_packing');
+            bulkPackingContainer.innerHTML = '';
+            product.packing.bulk.forEach(size => {
+                const sizeElement = document.createElement('a');
+                sizeElement.href = "javascript:void(0)";
+                sizeElement.textContent = size;
+                bulkPackingContainer.appendChild(sizeElement);
+            });
+
+            const retailPackingContainer = document.getElementById('retail_packing');
+            retailPackingContainer.innerHTML = '';
+            product.packing.retail.forEach(size => {
+                const sizeElement = document.createElement('a');
+                sizeElement.href = "javascript:void(0)";
+                sizeElement.textContent = size;
+                retailPackingContainer.appendChild(sizeElement);
+            });
+
+            // Crear promesas para esperar a que todas las imágenes se carguen
+            const img1Promise = loadImage(product.img1);
+            const img2Promise = loadImage(product.img2);
+            const img3Promise = loadImage(product.img3);
+
+            // Esperar a que todas las imágenes se carguen antes de mostrar el modal
+            Promise.all([img1Promise, img2Promise, img3Promise]).then(() => {
+                // Todas las imágenes se han cargado, asignarlas a los elementos img
+                document.getElementById('img_1').src = product.img1;
+                document.getElementById('img_2').src = product.img2;
+                document.getElementById('img_3').src = product.img3;
+                document.getElementById('img_thumb_1').src = product.img1;
+                document.getElementById('img_thumb_2').src = product.img2;
+                document.getElementById('img_thumb_3').src = product.img3;
+
+                // Mostrar el modal
+                $("#modalCenter").modal('show');
+            }).catch(error => {
+                console.error('Error cargando imágenes:', error);
+            });
+
+
+
+            $("#modalCenter").modal('show');
+        }
+
+        function loadImage(url) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.src = url;
+                img.onload = () => {
+                    resolve();
+                };
+                img.onerror = error => {
+                    reject(error);
+                };
+            });
+        }
+    </script>
 @endsection

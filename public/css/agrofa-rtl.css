@@ -8216,7 +8216,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .product-details__images > img {
   width: 100% !important;
-  max-width: 285px;
+  max-width: 300x;
   height: auto;
 }
 .product-details__carousel-slider {

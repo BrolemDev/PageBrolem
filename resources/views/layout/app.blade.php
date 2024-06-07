@@ -104,7 +104,7 @@
                             <li class="scrollToLink"><a href="{{ route('about_us') }}">About Us</a></li>
                             <li class="dropdown">
                                 <a href="javascript:void(0)">Our Products</a>
-                                <ul class="sub-menu">P
+                                <ul class="sub-menu">
                                     <li><a href="{{ route('grains') }}">Andean Grains</a></li>
                                     <li><a href="{{ route('beans') }}">Beans</a></li>
                                 </ul>
@@ -182,7 +182,7 @@
                             <li class="scrollToLink"><a href="{{ route('about_us') }}">About Us</a></li>
                             <li class="dropdown">
                                 <a href="javascript:void(0)">Our Products</a>
-                                <ul class="sub-menu">P
+                                <ul class="sub-menu">
                                     <li><a href="{{ route('grains') }}">Andean Grains</a></li>
                                     <li><a href="{{ route('beans') }}">Beans</a></li>
                                 </ul>
@@ -292,6 +292,9 @@
     <script src="{{ asset('vendors/jquery-lettering/jquery.lettering.min.js') }}"></script>
     <!-- template js -->
     <script src="{{ asset('js/agrofa.js') }}"></script>
+
+    @yield('scripts')
+
 </body>
 
 </html>

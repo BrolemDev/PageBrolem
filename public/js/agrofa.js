@@ -689,7 +689,9 @@
             );
         }
     }
-
+    $("#closeModalButton").click(function () {
+        $("#modalCenter").modal("hide");
+    });
     // product review tab js
     $(".product-details__description__tab-item").on("click", function (e) {
         e.preventDefault();
@@ -767,9 +769,6 @@
                 return false;
             });
         }
-
-        $("#modalCenter").modal("show");
-
 
         var $galleryContainer = $(".gallery").isotope({
             itemSelector: ".item",

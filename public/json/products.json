@@ -1,0 +1,204 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "White Quinoa",
+            "scientific_name": "Chenopodium quinoa",
+            "description": "Discover our Andean quinoa, sustainably sourced from Puno or Ayacucho, rich in protein, essential amino acids, and micronutrients. Meeting strict quality standards, it's offered in organic and conventional varieties, ideal for various culinary needs.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1008.50.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Puno", "Ayacucho"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/1/1.webp",
+            "img2": "images/brolem/MENESTRAS/1/IMG_2726.webp",
+            "img3": "images/brolem/MENESTRAS/1/IMG_2848.webp"
+        },
+        {
+            "id": 2,
+            "name": "Red Quinoa",
+            "scientific_name": "Chenopodium quinoa",
+            "description": "Discover our gluten-free ancient grain, Red quinoa. Sourced from premium farms.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1008.50.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Puno", "Ayacucho"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/2/3.webp",
+            "img2": "images/brolem/MENESTRAS/2/IMG_2736.webp",
+            "img3": "images/brolem/MENESTRAS/2/IMG_2856.webp"
+        },
+        {
+            "id": 3,
+            "name": "Black Quinoa",
+            "scientific_name": "Chenopodium quinoa",
+            "description": "Discover our gluten-free ancient grain, Black quinoa. Sourced from premium farms.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1008.50.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Puno", "Ayacucho"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/3/18.webp",
+            "img2": "images/brolem/MENESTRAS/3/IMG_2740.webp",
+            "img3": "images/brolem/MENESTRAS/3/IMG_2858.webp"
+        },
+        {
+            "id": 4,
+            "name": "Tri-color Quinoa",
+            "scientific_name": "Chenopodium quinoa",
+            "description": "Discover our gluten-free ancient grain, Tricolor quinoa. Sourced from premium farms.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1008.50.9000",
+            "main_producing_region": ["Puno", "Ayacucho"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/4/8.webp",
+            "img2": "images/brolem/MENESTRAS/4/IMG_2743.webp",
+            "img3": "images/brolem/MENESTRAS/4/IMG_2861.webp"
+        },
+        {
+            "id": 5,
+            "name": "Black Chia Seeds",
+            "scientific_name": "Salvia hispanica",
+            "description": "Explore our Central American chia, packed with omega-3s, fiber, antioxidants, and proteins. Available in organic and conventional varieties, cultivated with care to meet high standards. Rest assured, each batch maintains purity and freshness, ensuring exceptional quality for your products.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1207.99.9900",
+            "origin": "Peru",
+            "main_producing_region": [""],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/5/10.webp",
+            "img2": "images/brolem/MENESTRAS/5/IMG_2747.webp",
+            "img3": "images/brolem/MENESTRAS/5/IMG_2863.webp"
+        },
+        {
+            "id": 6,
+            "name": "Amaranth",
+            "scientific_name": "Amaranthus caudatus",
+            "description": "Experience our amaranth, an ancient grain originating from Central and South America, rich in proteins, fiber, vitamins, and minerals. Cultivated with the highest standards of quality and sustainability, our amaranth ensures freshness and purity in every grain. Perfect for today's healthy market.",
+            "available_varieties": ["Organic Certified and Conventional"],
+            "hs_code": "1008.90.2000",
+            "origin": "Peru",
+            "main_producing_region": [""],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/6/4.webp",
+            "img2": "images/brolem/MENESTRAS/6/IMG_2750.webp",
+            "img3": "images/brolem/MENESTRAS/6/IMG_2897.webp"
+        },
+        {
+            "id": 7,
+            "name": "Large Lima Beans",
+            "scientific_name": "Phaseolus Lunatus",
+            "description": "Our well known Large Limas also known as butter beans, are prized for their smooth texture and delicate flavor. Their starchy yet creamy texture imparts a subtle taste that complements a wide array of dishes. Sourced from the fertile soils of the Peruvian Andes and cultivated to the highest quality standards, our butter beans are a versatile and delicious choice to enhance your favorite recipes.",
+            "available_varieties": ["Different calibers available"],
+            "hs_code": "0713.39.9100",
+            "origin": "Peru",
+            "main_producing_region": ["Lambayeque"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            }
+        },
+        {
+            "id": 8,
+            "name": "Baby Lima Beans",
+            "scientific_name": "Phaseolus Lunatus",
+            "description": "Peruvian Baby Lima Beans, from northern Peru, offer a unique flavor and tender texture, making them stand out. They hold great potential as a sought-after export, adding a premium touch to various international dishes with their versatility and delicate profile.",
+            "available_varieties": [],
+            "hs_code": "0713.39.9100",
+            "origin": "Peru",
+            "main_producing_region": ["Lambayeque"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg", "more"],
+                "retail": ["950g", "450g", "Customizable"]
+            }
+        },
+        {
+            "id": 9,
+            "name": "Black Eye Beans",
+            "scientific_name": "Vigna unguiculata",
+            "description": "Introducing our Black Eyed Beans from northern Peru. Renowned for their buttery texture and delicate flavor, these beans are ideal for global cuisines. Rich in protein, fiber, and essential nutrients, they elevate any dish.",
+            "available_varieties": [],
+            "hs_code": "0713.39.9200",
+            "origin": "Peru",
+            "main_producing_region": ["Piura"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/7/IMG_2872.webp",
+            "img3": "images/brolem/MENESTRAS/7/IMG_2902.webp",
+            "img2": "images/brolem/MENESTRAS/7/IMG_2901.webp"
+        },
+        {
+            "id": 10,
+            "name": "Green Mung Beans",
+            "scientific_name": "Vigna radiata",
+            "description": "The Mung Bean is renowned for its small, oval seeds rich in protein, fiber, and nutrients. It is used in various culinary forms such as mung bean sprouts, dried beans, and flour. Recognized for its versatility and nutritional value, it is a staple ingredient in many cuisines and a significant source of food in several regions worldwide.",
+            "available_varieties": [],
+            "hs_code": "0713.31.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Northern Peru", "Central Peru"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg", "more"],
+                "retail": ["950g", "450g", "Customizable"]
+            }
+        },
+        {
+            "id": 11,
+            "name": "Adzuki Beans",
+            "scientific_name": "Vigna Angularis",
+            "description": "Its seeds typically exhibit a vibrant, uniform red hue. Renowned for its sweet flavor, kidney beans are used in various cuisines, particularly in pastry making where they are commonly processed into a paste.",
+            "available_varieties": [],
+            "hs_code": "0713.31.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Northern Peru", "Central Peru"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg", "more"],
+                "retail": ["950g", "450g", "Customizable"]
+            }
+        },
+        {
+            "id": 12,
+            "name": "Peeled Mung Beans",
+            "scientific_name": "Vigna radiata",
+            "description": "The Mung Bean is renowned for its small, oval seeds rich in protein, fiber, and nutrients. It is used in various culinary forms such as mung bean sprouts, dried beans, and flour. Recognized for its versatility and nutritional value, it is a staple ingredient in many cuisines and a significant source of food in several regions worldwide.",
+            "available_varieties": [],
+            "hs_code": "0713.31.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Northern Peru", "Central Peru"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg", "more"],
+                "retail": ["950g", "450g", "Customizable"]
+            }
+        }
+    ]
+}
