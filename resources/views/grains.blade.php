@@ -113,7 +113,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Detalles del Producto</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar" id="closeModalButton">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"
+                        id="closeModalButton">
                         <span aria-hidden="true"></span>
                     </button>
                 </div>
