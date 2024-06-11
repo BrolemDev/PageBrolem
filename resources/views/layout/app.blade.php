@@ -231,8 +231,7 @@
                                     <img src="{{ asset('images/brolemlogo.png') }}" width="155"
                                         alt="Agrofa HTML Template">
                                 </a>
-                                <p class="footer-widget__experience-text">We are main packers and exhibitors of
-                                    agricultural products specializing in beans and corn.</p>
+                                <p class="footer-widget__experience-text">We are main packers and exhibitors of agricultural products specializing in andeans grains and beans.</p>
                                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
