@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="page-header page-header--about">
-        <div class="page-header__bg" style="background-image: url('{{ asset('images/brolem/PLANTA/IMG_3546.webp') }}');">
+        <div class="page-header__bg">
         </div>
         <!-- /.page-header__bg -->
         <div class="container">

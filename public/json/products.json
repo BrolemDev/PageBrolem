@@ -120,7 +120,10 @@
             "packing": {
                 "bulk": ["25Kg", "50Kg", "950kg"],
                 "retail": ["950g", "450g", "Customizable"]
-            }
+            },
+            "img1": "images/brolem/MENESTRAS/8/6.webp",
+            "img2": "images/brolem/MENESTRAS/8/IMG_2780.webp",
+            "img3": "images/brolem/MENESTRAS/8/IMG_2781.webp"
         },
         {
             "id": 8,
@@ -135,8 +138,12 @@
             "packing": {
                 "bulk": ["25Kg", "50Kg", "950kg", "more"],
                 "retail": ["950g", "450g", "Customizable"]
-            }
+            },
+            "img1": "images/brolem/MENESTRAS/10/5.webp",
+            "img2": "images/brolem/MENESTRAS/10/IMG_X.webp",
+            "img3": "images/brolem/MENESTRAS/10/IMG_2779.webp"
         },
+
         {
             "id": 9,
             "name": "Black Eye Beans",
@@ -157,6 +164,24 @@
         },
         {
             "id": 10,
+            "name": "Peeled Mung Beans",
+            "scientific_name": "Vigna radiata",
+            "description": "Peeled mung beans are small, yellow legumes known for their mild flavor and high nutritional value. They are rich in protein, fiber, and essential vitamins, making them a versatile ingredient in soups, salads, and various dishes. Easy to cook and digest, peeled mung beans are a healthy addition to any diet.",
+            "available_varieties": [],
+            "hs_code": "0713.31.9000",
+            "origin": "Peru",
+            "main_producing_region": ["Northern Peru", "Central Peru"],
+            "availability": "All year",
+            "packing": {
+                "bulk": ["25Kg", "50Kg", "950kg", "more"],
+                "retail": ["950g", "450g", "Customizable"]
+            },
+            "img1": "images/brolem/MENESTRAS/12/IMG_2922.webp",
+            "img2": "images/brolem/MENESTRAS/12/IMG_2791.webp",
+            "img3": "images/brolem/MENESTRAS/12/IMG_2922.webp"
+        },
+        {
+            "id": 11,
             "name": "Green Mung Beans",
             "scientific_name": "Vigna radiata",
             "description": "The Mung Bean is renowned for its small, oval seeds rich in protein, fiber, and nutrients. It is used in various culinary forms such as mung bean sprouts, dried beans, and flour. Recognized for its versatility and nutritional value, it is a staple ingredient in many cuisines and a significant source of food in several regions worldwide.",
@@ -168,10 +193,14 @@
             "packing": {
                 "bulk": ["25Kg", "50Kg", "950kg", "more"],
                 "retail": ["950g", "450g", "Customizable"]
-            }
+            },
+            "img1": "images/brolem/MENESTRAS/18/7.webp",
+            "img2": "images/brolem/MENESTRAS/18/IMG_2808.webp",
+            "img3": "images/brolem/MENESTRAS/18/IMG_2943.webp"
         },
+
         {
-            "id": 11,
+            "id": 12,
             "name": "Adzuki Beans",
             "scientific_name": "Vigna Angularis",
             "description": "Its seeds typically exhibit a vibrant, uniform red hue. Renowned for its sweet flavor, kidney beans are used in various cuisines, particularly in pastry making where they are commonly processed into a paste.",
@@ -183,22 +212,10 @@
             "packing": {
                 "bulk": ["25Kg", "50Kg", "950kg", "more"],
                 "retail": ["950g", "450g", "Customizable"]
-            }
-        },
-        {
-            "id": 12,
-            "name": "Peeled Mung Beans",
-            "scientific_name": "Vigna radiata",
-            "description": "The Mung Bean is renowned for its small, oval seeds rich in protein, fiber, and nutrients. It is used in various culinary forms such as mung bean sprouts, dried beans, and flour. Recognized for its versatility and nutritional value, it is a staple ingredient in many cuisines and a significant source of food in several regions worldwide.",
-            "available_varieties": [],
-            "hs_code": "0713.31.9000",
-            "origin": "Peru",
-            "main_producing_region": ["Northern Peru", "Central Peru"],
-            "availability": "All year",
-            "packing": {
-                "bulk": ["25Kg", "50Kg", "950kg", "more"],
-                "retail": ["950g", "450g", "Customizable"]
-            }
+            },
+            "img1": "images/brolem/MENESTRAS/15/14.webp",
+            "img2": "images/brolem/MENESTRAS/15/IMG_2799.webp",
+            "img3": "images/brolem/MENESTRAS/15/IMG_2800.webp"
         }
     ]
 }

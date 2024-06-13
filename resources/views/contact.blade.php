@@ -6,7 +6,7 @@
             <div class="row get-touch-one__row">
                 <div class="get-touch-one__content col-md-6 col-sm-12">
                     <div class="section-common-title fadeInDown wow" data-wow-delay="100ms">
-                        <h2 class="get-touch-one__title food-chose-title">Reach Us Send a Message</h2>
+                        <h2 class="get-touch-one__title food-chose-title">REACH US SEND A MESSAGE</h2>
                         <ul class="list-unstyled get-touch-one__contact-info">
                             <li class="get-touch-one__info__contact-item">
                                 <i class="icon-location get-touch-one__contact__icon"></i>

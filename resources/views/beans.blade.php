@@ -8,93 +8,56 @@
             <!--  *****  Buttons Section Starts  *****  -->
             <div class="button-group">
                 <button class="button active" data-filter="*">All</button>
-                <button class="button" data-filter=".beans">BEANS</button>
-                <button class="button" data-filter=".pulses">PULSES</button>
+                <button class="button" data-filter=".large">Large lima</button>
+                <button class="button" data-filter=".baby">Baby Lima</button>
+                <button class="button" data-filter=".black">Black Eye</button>
+                <button class="button" data-filter=".peeled">Peeled Mung Beans</button>
+                <button class="button" data-filter=".green">Green Mung</button>
+                <button class="button" data-filter=".adzuki">Adzuki</button>
             </div>
 
             <div class="gallery">
 
-                <div class="item beans">
+                <div class="item large">
+                    <img src="{{ asset('images/brolem/MENESTRAS/8/IMG_2906.webp') }}">
+                    <div class="overlay">
+                        <a href="#" class="view-more" data-id="7">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item baby">
+                    <img src="{{ asset('images/brolem/MENESTRAS/10/IMG_2915.webp') }}">
+                    <div class="overlay">
+                        <a href="#" class="view-more" data-id="8">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item black">
                     <img src="{{ asset('images/brolem/MENESTRAS/7/IMG_2902.webp') }}">
                     <div class="overlay">
                         <a href="#" class="view-more" data-id="9">VIEW MORE</a>
                     </div>
                 </div>
 
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/8/IMG_2906.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="8">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/9/IMG_2911.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="9">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item beans">
-                    <img src="{{ asset('images/brolem/MENESTRAS/10/IMG_2913.webp') }}">
+                <div class="item peeled">
+                    <img src="{{ asset('images/brolem/MENESTRAS/12/IMG_2791.webp') }}">
                     <div class="overlay">
                         <a href="#" class="view-more" data-id="10">VIEW MORE</a>
                     </div>
                 </div>
 
-                <div class="item beans">
-                    <img src="{{ asset('images/brolem/MENESTRAS/11/IMG_2919.webp') }}">
+
+                <div class="item green">
+                    <img src="{{ asset('images/brolem/MENESTRAS/18/IMG_2944.webp') }}">
                     <div class="overlay">
                         <a href="#" class="view-more" data-id="11">VIEW MORE</a>
                     </div>
                 </div>
 
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/12/IMG_2791.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="12">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/13/IMG_2927.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="13">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/14/IMG_2930.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="14">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item beans">
+                <div class="item adzuki">
                     <img src="{{ asset('images/brolem/MENESTRAS/15/IMG_2935.webp') }}">
                     <div class="overlay">
-                        <a href="#" class="view-more" data-id="15">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item beans">
-                    <img src="{{ asset('images/brolem/MENESTRAS/16/IMG_2937.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="16">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item pulses">
-                    <img src="{{ asset('images/brolem/MENESTRAS/17/IMG_2940.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="17">VIEW MORE</a>
-                    </div>
-                </div>
-
-                <div class="item beans">
-                    <img src="{{ asset('images/brolem/MENESTRAS/18/IMG_2943.webp') }}">
-                    <div class="overlay">
-                        <a href="#" class="view-more" data-id="18">VIEW MORE</a>
+                        <a href="#" class="view-more" data-id="12">VIEW MORE</a>
                     </div>
                 </div>
 
@@ -385,13 +348,11 @@
         document.querySelectorAll('.view-more').forEach(link => {
             link.addEventListener('click', async event => {
                 event.preventDefault();
-                // const productId = event.target.dataset.id;
-                // const product = await getProductById(productId);
-                // if (product) {
-                // displayProductDetails(product);
-                // }
-
-                alert('We are working to add details');
+                const productId = event.target.dataset.id;
+                const product = await getProductById(productId);
+                if (product) {
+                    displayProductDetails(product);
+                }
             });
         });
 
@@ -447,16 +408,16 @@
             $("#modalCenter").modal('show');
         }
 
-        function loadImage(url) {
+        function loadImage(src) {
             return new Promise((resolve, reject) => {
                 const img = new Image();
-                img.src = url;
                 img.onload = () => {
                     resolve();
                 };
-                img.onerror = error => {
-                    reject(error);
+                img.onerror = () => {
+                    reject(new Error('Error al cargar la imagen: ' + src));
                 };
+                img.src = src;
             });
         }
     </script>

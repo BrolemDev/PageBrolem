@@ -5,7 +5,6 @@
 
         <main class="mainContainer">
 
-            <!--  *****  Buttons Section Starts  *****  -->
             <div class="button-group">
                 <button class="button active" data-filter="*">All</button>
                 <button class="button" data-filter=".whiteQ">WHIITE QUINOA</button>
@@ -16,8 +15,6 @@
             </div>
 
             <div class="gallery">
-
-
                 <div class="item whiteQ">
                     <img src="{{ asset('images/brolem/MENESTRAS/1/IMG_2842.webp') }}">
                     <div class="overlay">
@@ -64,8 +61,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Detalles del Producto</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"
-                        id="closeModalButton">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar" id="closeModalButton">
                         <span aria-hidden="true"></span>
                     </button>
                 </div>
