@@ -19,7 +19,7 @@
             }'>
             <div class="main-slider-one__item">
                 <div class="main-slider-one__bg"
-                    style="background-image: url('{{ asset('images/brolem/PLANTA/IMG_3546.webp') }}')">
+                    style="background-image: url('{{ asset('images/backgrounds/farmer-bg1-1.jpg') }}')">
                 </div>
                 <div class="container">
                     <div class="row">

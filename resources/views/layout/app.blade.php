@@ -230,8 +230,6 @@
                                 <a href="{{ url('/') }}" class="footer-widget__logo">
                                     <img src="{{ asset('images/brolemlogo.png') }}" width="155" alt="Brolem">
                                 </a>
-                                <p class="footer-widget__experience-text">We are main packers and exhibitors of
-                                    agricultural products specializing in andeans grains and beans.</p>
                                 <div class="mc-form__response"></div><!-- /.mc-form__response -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
@@ -277,7 +275,7 @@
 
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <span class="scroll-to-top__text">Regresar</span>
+        <span class="scroll-to-top__text">Go Back</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
